@@ -50,7 +50,7 @@ namespace Topic_3____User_Input
 
             //Distance - 3 distances in km, (include decimals) prints the average - round to 2 decimals
             Double firstDistance, secondDistance, thirdDistance, averageDistance;
-            Console.WriteLine("You see how good I am at adding? I think I can impress you more by showing you how I can \naverage three different distances in km!");
+            Console.WriteLine("You see how good I am at adding? I think I can impress you more by showing you how I can \naverage three different distances in kilometers!");
             Console.WriteLine("Give me the first distance please!");
             Double.TryParse(Console.ReadLine(), out firstDistance);
             Console.WriteLine();
@@ -73,7 +73,7 @@ namespace Topic_3____User_Input
             double firstLeg, secondLeg, hypotenuse;
             Console.WriteLine($"You know {name}, I don't think that's impressive enough. Would hard math be more impressive?\nWhat about trigonometry and the pythagorean theorem? ");
             Console.WriteLine();
-            Console.WriteLine("I think that would be more impressive. How about you tell me the two lengths of the legs of a \nright angle triangle and I will tell you the size of the hypotenuse in metres.");
+            Console.WriteLine("I think that would be more impressive. How about you tell me the two lengths of the legs of a \nright angle triangle and I will tell you the size of the hypotenuse in meters.");
             Console.WriteLine();
             Console.WriteLine("What's the size of the first leg? ");
             Double.TryParse(Console.ReadLine(), out firstLeg);
